@@ -2,7 +2,7 @@ public class Cell {
 
     public Cell() {
         this.isMine = false;
-        this.id = ++ cellsCreated;
+        this.id =  cellsCreated ++;
     }
 
     private static int cellsCreated = 0;
@@ -19,6 +19,10 @@ public class Cell {
 
     public int getId() {
         return id;
+    }
+
+    public String showCell(){
+        return this.isMine == true ? "x" : ".";
     }
 
 }
