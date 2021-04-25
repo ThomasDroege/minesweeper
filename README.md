@@ -1,3 +1,3 @@
 # minesweeper
 
-console based version of the classicer minesweeper written in java.
+console based version of the classic game written in java.
