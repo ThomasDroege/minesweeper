@@ -18,6 +18,7 @@ public class Game {
         System.out.print(field.randNumbersList);
 
 
+        System.out.println("Test: Changing Git User");
 
 
     }
